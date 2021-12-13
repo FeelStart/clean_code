@@ -11,6 +11,9 @@
 		3E5325BA27677C6600036065 /* SimpleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5325B927677C6600036065 /* SimpleFactory.swift */; };
 		3E5325BC27677CE000036065 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5325BB27677CE000036065 /* Adapter.swift */; };
 		3E5325BE27677D0F00036065 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5325BD27677D0F00036065 /* Singleton.swift */; };
+		3E5325C0276780CB00036065 /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5325BF276780CB00036065 /* FactoryMethod.swift */; };
+		3E5325C2276785AA00036065 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5325C1276785AA00036065 /* Facade.swift */; };
+		3E5325C4276798A800036065 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5325C3276798A800036065 /* AbstractFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +34,9 @@
 		3E5325B927677C6600036065 /* SimpleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFactory.swift; sourceTree = "<group>"; };
 		3E5325BB27677CE000036065 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 		3E5325BD27677D0F00036065 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		3E5325BF276780CB00036065 /* FactoryMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethod.swift; sourceTree = "<group>"; };
+		3E5325C1276785AA00036065 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
+		3E5325C3276798A800036065 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,9 @@
 				3E5325B927677C6600036065 /* SimpleFactory.swift */,
 				3E5325BB27677CE000036065 /* Adapter.swift */,
 				3E5325BD27677D0F00036065 /* Singleton.swift */,
+				3E5325BF276780CB00036065 /* FactoryMethod.swift */,
+				3E5325C1276785AA00036065 /* Facade.swift */,
+				3E5325C3276798A800036065 /* AbstractFactory.swift */,
 			);
 			path = design_pattern_with_swift;
 			sourceTree = "<group>";
@@ -132,7 +141,10 @@
 				3E5325BA27677C6600036065 /* SimpleFactory.swift in Sources */,
 				3E5325BE27677D0F00036065 /* Singleton.swift in Sources */,
 				3E5325BC27677CE000036065 /* Adapter.swift in Sources */,
+				3E5325C2276785AA00036065 /* Facade.swift in Sources */,
+				3E5325C0276780CB00036065 /* FactoryMethod.swift in Sources */,
 				3E5325B327677C3500036065 /* main.swift in Sources */,
+				3E5325C4276798A800036065 /* AbstractFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
